@@ -6,7 +6,6 @@ body {
   padding: 0;
 }
 
-/* 🔥 MENU PRO */
 nav {
   background: white;
   padding: 12px;
@@ -21,14 +20,12 @@ nav a {
   font-weight: bold;
   color: #0077cc;
   text-decoration: none;
-  font-size: 16px;
 }
 
 nav a:hover {
   color: #25D366;
 }
 
-/* 📦 CONTENEUR */
 .container {
   max-width: 700px;
   margin: auto;
@@ -39,19 +36,16 @@ nav a:hover {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-/* 🖼️ IMAGE */
 img {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   margin-top: 10px;
 }
 
-/* 📝 TITRE */
 h1 {
   color: #1e3a8a;
 }
 
-/* 📄 TEXTE */
 p {
   background: rgba(255,255,255,0.7);
   padding: 10px;
@@ -60,7 +54,6 @@ p {
   max-width: 600px;
 }
 
-/* 📱 BOUTON WHATSAPP */
 button {
   background-color: #25D366;
   color: white;
@@ -76,7 +69,6 @@ button:hover {
   background-color: #128C7E;
 }
 
-/* 🔻 FOOTER */
 footer {
   margin-top: 20px;
   padding: 10px;
