@@ -18,7 +18,7 @@
 
   <p>Bienvenue sur notre site officiel</p>
 
-  <p>Ministère de prière, d’adoration et d’enseignement biblique.</p>
+  <p id="verset"></p>
 
   <button onclick="window.open('https://wa.me/243855375854','_blank')">
     📱 WhatsApp
@@ -28,11 +28,29 @@
     💰 Don / Offrande
   </button>
 
+  <h2>🎥 Culte en direct</h2>
+
+  <iframe width="100%" height="300"
+    src="https://www.youtube.com/embed?listType=user_uploads&list=UC"
+    frameborder="0" allowfullscreen>
+  </iframe>
+
 </div>
 
 <footer>
   © 2026 Carrefour des Adorateurs
 </footer>
+
+<script>
+const versets = [
+"Le Seigneur est mon berger, je ne manquerai de rien. - Psaume 23:1",
+"Je puis tout par celui qui me fortifie. - Philippiens 4:13",
+"Confie-toi en l'Éternel de tout ton cœur. - Proverbes 3:5"
+];
+
+document.getElementById("verset").innerText =
+versets[Math.floor(Math.random() * versets.length)];
+</script>
 
 </body>
 </html>
