@@ -1,51 +1,50 @@
 body {
-  background: linear-gradient(to bottom, #e0f7fa, #80deea);
-  font-family: Arial, sans-serif;
-  text-align: center;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #80deea);
+  text-align: center;
 }
 
+/* NAVIGATION */
 nav {
   background: white;
   padding: 12px;
-  border-radius: 10px;
-  display: inline-block;
-  margin-top: 15px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 nav a {
-  margin: 0 12px;
+  margin: 0 10px;
+  text-decoration: none;
   font-weight: bold;
   color: #0077cc;
-  text-decoration: none;
 }
 
 nav a:hover {
   color: #25D366;
 }
 
+/* CONTAINER */
 .container {
   max-width: 700px;
-  margin: auto;
+  margin: 20px auto;
   padding: 25px;
   background: rgba(255,255,255,0.85);
   border-radius: 12px;
-  margin-top: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+/* IMAGE */
 img {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  margin-top: 10px;
 }
 
+/* TITRE */
 h1 {
   color: #1e3a8a;
 }
 
+/* TEXTE */
 p {
   background: rgba(255,255,255,0.7);
   padding: 10px;
@@ -54,21 +53,22 @@ p {
   max-width: 600px;
 }
 
+/* BOUTON */
 button {
-  background-color: #25D366;
+  background: #25D366;
   color: white;
   border: none;
-  padding: 12px 24px;
+  padding: 12px 20px;
   border-radius: 8px;
-  cursor: pointer;
   font-size: 16px;
-  font-weight: bold;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: #128C7E;
+  background: #128C7E;
 }
 
+/* FOOTER */
 footer {
   margin-top: 20px;
   padding: 10px;
