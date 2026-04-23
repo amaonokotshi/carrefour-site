@@ -28,12 +28,12 @@ nav a:hover {
   color: #25D366;
 }
 
-/* 📦 CONTENEUR PRINCIPAL */
+/* 📦 CONTENEUR */
 .container {
   max-width: 700px;
   margin: auto;
   padding: 25px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.85);
   border-radius: 12px;
   margin-top: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -48,10 +48,10 @@ img {
 
 /* 📝 TITRE */
 h1 {
-  color: blue;
+  color: #1e3a8a;
 }
 
-/* 📄 TEXTES */
+/* 📄 TEXTE */
 p {
   background: rgba(255,255,255,0.7);
   padding: 10px;
@@ -70,7 +70,6 @@ button {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  transition: 0.3s;
 }
 
 button:hover {
