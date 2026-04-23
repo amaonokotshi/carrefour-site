@@ -3,39 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrefour des adorateurs</title>
+  <title>Carrefour des Adorateurs</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="apropos.html">À propos</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-  <nav>
-    <a href="index.html">Accueil</a> |
-    <a href="apropos.html">À propos</a>
-  </nav>
+<div class="container">
 
   <img src="carrefour_logo.png" width="150">
 
-  <h1>Carrefour des adorateurs 🙏</h1>
+  <h1>Carrefour des Adorateurs 🙏</h1>
 
-  <p>Bienvenue sur notre site</p>
+  <p>Bienvenue sur notre site officiel</p>
 
-  <p>Rejoignez notre ministère pour des enseignements quotidiens, prières et événements spéciaux.</p>
+  <p>
+    Rejoignez notre ministère pour des enseignements quotidiens, prières et événements spéciaux.
+  </p>
 
-  <button onclick="contactWhatsApp()">📱 WhatsApp</button>
+  <button onclick="window.open('https://wa.me/243855375854','_blank')">
+    📱 Nous contacter sur WhatsApp
+  </button>
 
 </div>
 
 <footer>
-  <p>© 2026 Carrefour des Adorateurs. Tous droits réservés.</p>
+  © 2026 Carrefour des Adorateurs. Tous droits réservés.
 </footer>
-
-<script>
-function contactWhatsApp() {
-  window.open("https://wa.me/243855375854", "_blank");
-}
-</script>
 
 </body>
 </html>
