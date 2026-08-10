@@ -28,8 +28,10 @@ nav a {
 
 .logo {
   .logo {
-    width: 180px;
+    .logo {
+    width: 120px;
     max-width: 100%;
+}
 }
 }
 
